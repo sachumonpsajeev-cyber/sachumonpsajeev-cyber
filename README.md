@@ -49,4 +49,4 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/sachumonpsajeev-cyber)
 
 ---
-*"Turning clinical time-series data into life-saving predictions."*
+*"Turning clinical time-series data into life-saving predictions."* 
