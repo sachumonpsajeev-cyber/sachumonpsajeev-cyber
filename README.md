@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Sachu Mon Puthenpuraickpal Sajeev
+# 👋 Hi, I'm Sachu Mon Puthenpuraickkal Sajeev
 
 ### AI Researcher · Clinical ML · Full-Stack Engineer · MSc Data Science & AI
 
@@ -8,6 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachu-mon)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sachumonpsajeev-cyber)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:sachumonsajeevp3110@gmail.com)
 
 </div>
 
@@ -114,6 +115,7 @@ A real-time, socket-based multiplayer card game engine with an integrated AI Bot
 If you're working on **healthcare AI**, **clinical decision support**, **cloud ML deployment**, or just want to talk about building real systems from scratch — I'd love to connect.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachu%20Mon-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachu-mon)
+[![Gmail](https://img.shields.io/badge/Gmail-sachumonsajeevp3110%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:sachumonsajeevp3110@gmail.com)
 
 ---
 
