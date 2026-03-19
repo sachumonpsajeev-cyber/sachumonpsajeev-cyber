@@ -122,12 +122,6 @@ Assignments and projects from the Accenture Data Platform Bootcamp 2026 — cove
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
 
----
-
-## 📊 GitHub Stats
-
-![Sachu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sachumonpsajeev-cyber&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sachumonpsajeev-cyber&layout=compact&hide_border=true)
 
 ---
 
