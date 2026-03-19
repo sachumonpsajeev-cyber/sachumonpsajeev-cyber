@@ -6,7 +6,7 @@
 
 I build machine learning systems that work on real, messy clinical data — currently focused on predicting life-threatening intraoperative events using physiological time-series.
 
-📍 Riga, Latvia &nbsp;|&nbsp; 📬 [St87014@students.tsi.lv](mailto:St87014@students.tsi.lv) &nbsp;|&nbsp; 📬 [sachumonsajeevp3110@gmaail.com](mailto:sachumonsajeevp3110@gmail.com) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/sachu-mon)
+📍 Riga, Latvia &nbsp;|&nbsp; 📬 [St87014@students.tsi.lv](mailto:St87014@students.tsi.lv) &nbsp;|&nbsp; 📬 [sachumonsajeevp3110@gmail.com](mailto:sachumonsajeevp3110@gmail.com) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/sachu-mon)
 
 ---
 
@@ -96,8 +96,10 @@ Assignments and tasks completed during the Accenture Data Platform Bootcamp 2026
 
 ## 📬 Get in Touch
 
-I'm open to collaborations in clinical AI, healthcare data science, and research projects.
+🟢 **Open to:** Full-time roles · Part-time positions · Research collaborations · Visa-sponsored opportunities  
+💡 **Interests:** Clinical AI · Healthcare Data Science · Machine Learning Engineering · Data Science  
+🌍 **Location:** Riga, Latvia — open to relocation with visa sponsorship
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachu-mon)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:St87014@students.tsi.lv)
-[![mobile](+371-22447242)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/37122447242)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Sachumonsajeevp3110@gmail.com)
