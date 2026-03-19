@@ -100,3 +100,4 @@ I'm open to collaborations in clinical AI, healthcare data science, and research
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachu-mon)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:St87014@students.tsi.lv)
+[![mobile](+371-22447242)
