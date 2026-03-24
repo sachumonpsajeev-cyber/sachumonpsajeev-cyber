@@ -2,7 +2,7 @@
 
 **MSc Data Science & Artificial Intelligence** | TSI University, Riga, Latvia  
 **Research Focus:** Clinical Machine Learning · Deep Learning · Healthcare AI  
-**Background:** HR & Talent Acquisition → Career transition into Data Science & AI  
+**Background:** BI & Data Visualization → HR & Talent Acquisition → Career transition into Data Science & AI  
 
 I build machine learning systems that work on real, messy clinical data — currently focused on predicting life-threatening intraoperative events using physiological time-series.
 
@@ -14,7 +14,8 @@ I build machine learning systems that work on real, messy clinical data — curr
 
 - 🎓 Currently completing **MSc Data Science & AI** at TSI University, Riga
 - 🔬 Thesis: Predicting intraoperative cardiac arrest using Temporal Attention Networks on VitalDB clinical data
-- 🏢 Previously worked in **HR & Talent Acquisition** — now fully transitioned into Data Science & AI
+- 📊 Previously worked as a **Data Visualization Expert** (Power BI, Tableau, DAX) across BYJU'S and Testalogix Solutions — BI development, KPI validation, and data quality
+- 🏢 Also experienced in **HR & Talent Acquisition** — full-cycle recruitment across India
 - 🤖 Completed **Accenture Data Platform Bootcamp 2026** — hands-on training in AWS, Docker, Kubernetes, Cognigy.AI, Jenkins, Cybersecurity and more
 - 🌍 Based in Riga, Latvia — open to relocation with visa sponsorship
 - 💡 Passionate about applying AI to solve real-world healthcare problems
@@ -109,6 +110,9 @@ Assignments and projects from the Accenture Data Platform Bootcamp 2026 — cove
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 
 **Cloud & DevOps**  
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
@@ -117,18 +121,21 @@ Assignments and projects from the Accenture Data Platform Bootcamp 2026 — cove
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
+**BI & Data Quality**  
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+
 **AI & Tools**  
 ![Cognigy](https://img.shields.io/badge/Cognigy.AI-7B2FBE?style=flat&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
-
 
 ---
 
 ## 📬 Get in Touch
 
 🟢 **Open to:** Full-time roles · Part-time positions · Research collaborations · Visa-sponsored opportunities  
-💡 **Interests:** Clinical AI · Healthcare Data Science · Machine Learning Engineering · Data Science  
+💡 **Interests:** Clinical AI · Healthcare Data Science · Machine Learning Engineering · BI & Data Quality · Data Science  
 🌍 **Location:** Riga, Latvia — open to relocation with visa sponsorship
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachu-mon)
