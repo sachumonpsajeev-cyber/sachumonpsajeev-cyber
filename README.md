@@ -73,6 +73,50 @@ End-to-end ML pipeline for classifying psychological stress states from raw phys
 
 ---
 
+### 🔷 IBM HR Attrition Analytics — Power BI
+**`Power BI` `DAX` `Data Quality` `KPI Validation` `HR Analytics`**
+
+A 3-page Power BI dashboard built on the IBM HR dataset (1,470 employees) with full DAX measure testing and data quality validation throughout.
+
+**What I built & validated:**
+- 5 DAX measures: Attrition Rate %, Attrited Employees, Active Employees, Avg Salary (Attrited), Overtime Attrition %
+- Each measure cross-verified against raw data using SQL-style checks
+- Identified and corrected Age Group bucketing logic errors before publishing
+- Validated salary band segmentation and overtime filter accuracy across all visuals
+- Tested all filter/slicer interactions and confirmed KPI consistency across all 3 pages
+
+📁 [View Repository →](https://github.com/sachumonpsajeev-cyber/IBM-HR-Attrition-PowerBI)  
+`Power BI` `DAX` `Excel` `Data Validation` `HR Analytics`
+
+---
+
+### 🟣 Airline Quality Rating Analysis — Tableau
+**`Tableau` `Data Cleaning` `Dashboard Design` `KPI Analysis`**
+
+Interactive Tableau dashboard analysing passenger satisfaction patterns across 129,880 airline passengers — built for the Business Intelligence & Data Visualization module, MSc Data Science & AI (TSI University / UWE Bristol, 2025).
+
+**Dataset:** Airline Quality Ratings — Kaggle | **Tools:** Tableau Desktop · Microsoft Excel
+
+**Dashboard includes:**
+- KPI cards: Total Passengers · Avg Flight Distance · Avg Passenger Age · Avg Arrival & Departure Delay
+- Donut chart — Overall satisfaction (56.55% Satisfied vs 43.45% Neutral/Dissatisfied)
+- Bar chart — Satisfaction by passenger type (Business vs Personal)
+- Column chart — Satisfaction by travel type (Business · Economy · Economy Plus)
+- Grouped bar chart — Passenger info by age & class
+- Stacked bar chart — Passenger choice by flight leg (Long / Medium / Short)
+- Interactive filters — Customer Type · Gender · Type of Travel
+
+**Data quality work done:**
+- Identified null values, blank fields, and duplicate records in Excel before connecting to Tableau
+- Cross-validated all KPI metrics against raw dataset to confirm accuracy
+- Rebuilt data connection post-cleaning to ensure reliable and consistent visualisations
+- Applied iterative design — layout, colour palette, and font decisions informed by Gestalt principles
+
+📁 [View Repository →](https://github.com/sachumonpsajeev-cyber/Airline-Quality-Tableau)  
+`Tableau` `Excel` `Data Cleaning` `Dashboard Design` `KPI Validation`
+
+---
+
 ### ⚙️ [Model Building Workspace](https://github.com/sachumonpsajeev-cyber/model-building-workspace)
 A centralised knowledge repository documenting my ML engineering learning journey — experiments, training modules, and technical notes across data science and AI topics.  
 `Python`
