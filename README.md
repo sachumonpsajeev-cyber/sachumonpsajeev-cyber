@@ -59,13 +59,17 @@ Developed a two-stage deep learning pipeline to predict intraoperative cardiac a
 
 ---
 
-## 🗂️ Featured Projects
+## 🚀 Personal Development Projects
+
+Projects built independently to explore new technologies and sharpen full-stack and software engineering skills — outside of academic coursework and bootcamp assignments.
 
 ### 📋 [PriorityFlow-Angular — Task Management System](https://github.com/sachumonpsajeev-cyber/PriorityFlow-Angular)
-A high-performance Task Management System built with Angular. Features persistent local storage, reactive task filtering, priority-based categorisation, and inline editing for a seamless user experience. Demonstrates production-grade TypeScript architecture and modern Angular patterns.
+A high-performance Task Management System built with Angular, designed and developed independently to strengthen frontend engineering skills. Features persistent local storage, reactive task filtering, priority-based categorisation, and inline editing for a seamless user experience. Demonstrates production-grade TypeScript architecture and modern Angular patterns.
 `TypeScript` `Angular` `HTML` `CSS` `Local Storage` `Reactive Programming`
 
 ---
+
+## 🗂️ Academic & Research Projects
 
 ### 🫀 [VitalDB Cardiac Arrest Prediction — TAN](https://github.com/sachumonpsajeev-cyber/VitalDb-Cardiac-Arrest-Prediction-TAN)
 Intraoperative cardiac arrest prediction using a novel Temporal Attention Network (TAN) + LSTM hybrid architecture on VitalDB clinical time-series data. Includes full preprocessing pipeline, multi-window feature engineering, and model evaluation across four temporal horizons.
