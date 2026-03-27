@@ -1,10 +1,10 @@
-# Hi, I'm Sachu Mon Puthenpuraickkal Sajeev👋
+# Hi, I'm Sachu Mon Puthenpuraickkal Sajeev 👋
 
-**MSc Data Science & Artificial Intelligence** | TSI University, Riga, Latvia  
-**Research Focus:** Clinical Machine Learning · Deep Learning · Healthcare AI  
-**Background:** BI & Data Visualization → HR & Talent Acquisition → Career transition into Data Science & AI  
+**MSc Data Science & Artificial Intelligence** | TSI University, Riga, Latvia
+**Research Focus:** Clinical Machine Learning · Deep Learning · Healthcare AI
+**Background:** BI & Data Visualization → HR & Talent Acquisition → Career transition into Data Science & AI
 
-I build machine learning systems that work on real, messy clinical data — currently focused on predicting life-threatening intraoperative events using physiological time-series.
+I build machine learning systems that work on real, messy clinical data — currently focused on predicting life-threatening intraoperative events using physiological time-series. I also build full-stack applications and data engineering tools that solve real workflow problems.
 
 📍 Riga, Latvia &nbsp;|&nbsp; [![WhatsApp](https://img.shields.io/badge/WhatsApp-+371%2022447242-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/37122447242) &nbsp;|&nbsp; 📬 [St87014@students.tsi.lv](mailto:St87014@students.tsi.lv) &nbsp;|&nbsp; 📬 [sachumonsajeevp3110@gmail.com](mailto:sachumonsajeevp3110@gmail.com) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/sachu-mon)
 
@@ -61,14 +61,20 @@ Developed a two-stage deep learning pipeline to predict intraoperative cardiac a
 
 ## 🗂️ Featured Projects
 
+### 📋 [PriorityFlow-Angular — Task Management System](https://github.com/sachumonpsajeev-cyber/PriorityFlow-Angular)
+A high-performance Task Management System built with Angular. Features persistent local storage, reactive task filtering, priority-based categorisation, and inline editing for a seamless user experience. Demonstrates production-grade TypeScript architecture and modern Angular patterns.
+`TypeScript` `Angular` `HTML` `CSS` `Local Storage` `Reactive Programming`
+
+---
+
 ### 🫀 [VitalDB Cardiac Arrest Prediction — TAN](https://github.com/sachumonpsajeev-cyber/VitalDb-Cardiac-Arrest-Prediction-TAN)
-Intraoperative cardiac arrest prediction using a novel Temporal Attention Network (TAN) + LSTM hybrid architecture on VitalDB clinical time-series data. Includes full preprocessing pipeline, multi-window feature engineering, and model evaluation across four temporal horizons.  
+Intraoperative cardiac arrest prediction using a novel Temporal Attention Network (TAN) + LSTM hybrid architecture on VitalDB clinical time-series data. Includes full preprocessing pipeline, multi-window feature engineering, and model evaluation across four temporal horizons.
 `Python` `PyTorch` `LightGBM` `Scikit-learn` `VitalDB`
 
 ---
 
 ### 🧠 [Physiological Signal-Based Stress Prediction](https://github.com/sachumonpsajeev-cyber/Physiological-Signal-Based-Stress-Prediction)
-End-to-end ML pipeline for classifying psychological stress states from raw physiological signals. Covers feature extraction, model training, and comparative evaluation of classification algorithms.  
+End-to-end ML pipeline for classifying psychological stress states from raw physiological signals. Covers feature extraction, model training, and comparative evaluation of classification algorithms.
 `Python` `Scikit-learn` `Pandas` `Jupyter`
 
 ---
@@ -85,7 +91,7 @@ A 3-page Power BI dashboard built on the IBM HR dataset (1,470 employees) with f
 - Validated salary band segmentation and overtime filter accuracy across all visuals
 - Tested all filter/slicer interactions and confirmed KPI consistency across all 3 pages
 
-📁 [View Repository →](https://github.com/sachumonpsajeev-cyber/IBM-HR-Attrition-PowerBI)  
+📁 [View Repository →](https://github.com/sachumonpsajeev-cyber/IBM-HR-Attrition-PowerBI)
 `Power BI` `DAX` `Excel` `Data Validation` `HR Analytics`
 
 ---
@@ -112,45 +118,49 @@ Interactive Tableau dashboard analysing passenger satisfaction patterns across 1
 - Rebuilt data connection post-cleaning to ensure reliable and consistent visualisations
 - Applied iterative design — layout, colour palette, and font decisions informed by Gestalt principles
 
-📁 [View Repository →](https://github.com/sachumonpsajeev-cyber/Airline-Quality-Tableau)  
+📁 [View Repository →](https://github.com/sachumonpsajeev-cyber/Airline-Quality-Tableau)
 `Tableau` `Excel` `Data Cleaning` `Dashboard Design` `KPI Validation`
 
 ---
 
 ### ⚙️ [Model Building Workspace](https://github.com/sachumonpsajeev-cyber/model-building-workspace)
-A centralised knowledge repository documenting my ML engineering learning journey — experiments, training modules, and technical notes across data science and AI topics.  
+A centralised knowledge repository documenting my ML engineering learning journey — experiments, training modules, and technical notes across data science and AI topics.
 `Python`
 
 ---
 
 ### ☁️ [AWS S3 Static Hosting](https://github.com/sachumonpsajeev-cyber/sachu-s3-bucket)
-Hands-on project deploying a static website using AWS S3 bucket configuration — part of cloud infrastructure practice from Accenture bootcamp.  
+Hands-on project deploying a static website using AWS S3 bucket configuration — part of cloud infrastructure practice from Accenture bootcamp.
 `HTML` `AWS`
 
 ---
 
 ### 📋 [Accenture Data Platform Bootcamp](https://github.com/sachumonpsajeev-cyber/accenturebootcamptasks)
-Assignments and projects from the Accenture Data Platform Bootcamp 2026 — covering AWS, Docker, Kubernetes, Cognigy.AI chatbot, Jenkins, cybersecurity and more.  
+Assignments and projects from the Accenture Data Platform Bootcamp 2026 — covering AWS, Docker, Kubernetes, Cognigy.AI chatbot, Jenkins, cybersecurity and more.
 `Python` `AWS` `Docker` `Kubernetes` `Cognigy.AI` `Shell`
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages**  
+**Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat&logoColor=white)
 ![Shell](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
-**ML / DL Frameworks**  
+**Frontend & Frameworks**
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+
+**ML / DL Frameworks**
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logoColor=white)
 
-**Data & Visualisation**  
+**Data & Visualisation**
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logoColor=white)
@@ -158,18 +168,18 @@ Assignments and projects from the Accenture Data Platform Bootcamp 2026 — cove
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat&logo=powerbi&logoColor=black)
 
-**Cloud & DevOps**  
+**Cloud & DevOps**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-**BI & Data Quality**  
+**BI & Data Quality**
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 
-**AI & Tools**  
+**AI & Tools**
 ![Cognigy](https://img.shields.io/badge/Cognigy.AI-7B2FBE?style=flat&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
@@ -178,8 +188,8 @@ Assignments and projects from the Accenture Data Platform Bootcamp 2026 — cove
 
 ## 📬 Get in Touch
 
-🟢 **Open to:** Full-time roles · Part-time positions · Research collaborations · Visa-sponsored opportunities  
-💡 **Interests:** Clinical AI · Healthcare Data Science · Machine Learning Engineering · BI & Data Quality · Data Science  
+🟢 **Open to:** Full-time roles · Part-time positions · Research collaborations · Visa-sponsored opportunities
+💡 **Interests:** Clinical AI · Healthcare Data Science · Machine Learning Engineering · BI & Data Quality · Full-Stack Development
 🌍 **Location:** Riga, Latvia — open to relocation with visa sponsorship
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachu-mon)
