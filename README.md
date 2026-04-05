@@ -7,7 +7,7 @@
 I'm a Data Scientist completing my MSc at TSI University in Riga, building deep learning systems that work on real, messy clinical data. My thesis focuses on predicting life-threatening intraoperative events from physiological time-series — and beyond research, I build full-stack tools and BI solutions that solve real workflow problems.
 
 📍 Riga, Latvia &nbsp;|&nbsp; [![WhatsApp](https://img.shields.io/badge/WhatsApp-+371%2022447242-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/37122447242) &nbsp;|&nbsp; 📬 [St87014@students.tsi.lv](mailto:St87014@students.tsi.lv) &nbsp;|&nbsp; 📬 [sachumonsajeevp3110@gmail.com](mailto:sachumonsajeevp3110@gmail.com) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/sachu-mon)
-
+🟢 Actively seeking Data Science / ML / BI roles in Latvia and Europe — open to visa sponsorship
 ---
 
 ## 👨‍💻 About Me
