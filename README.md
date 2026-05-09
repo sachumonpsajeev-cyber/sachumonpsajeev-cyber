@@ -14,7 +14,7 @@ I'm a Data Scientist completing my MSc at TSI University in Riga, building deep 
 
 ## 👨‍💻 About Me
 
-I came into Data Science through an unconventional path — starting in HR & Talent Acquisition, then moving into BI and Data Visualization before transitioning fully into ML and AI. That background gives me an edge: I understand business context, data quality, and how to communicate technical results to non-technical audiences.
+I came into Data Science through an unconventional path — starting in BI and Data Visualization then moving into  HR & Talent Acquisition, before transitioning fully into ML and AI. That background gives me an edge: I understand business context, data quality, and how to communicate technical results to non-technical audiences.
 
 - 🎓 Currently completing **MSc Data Science & AI** at TSI University, Riga
 - 🔬 Thesis: Predicting intraoperative cardiac arrest using Temporal Attention Networks on VitalDB clinical data — CV AUROC **0.9191 ± 0.0425**, validated across 5 folds
