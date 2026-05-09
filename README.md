@@ -14,7 +14,7 @@ I'm a Data Scientist completing my MSc at TSI University in Riga, building deep 
 
 ## 👨‍💻 About Me
 
-I came into Data Science through an unconventional path — starting in BI and Data Visualization then moving into  HR & Talent Acquisition, before transitioning fully into ML and AI. That background gives me an edge: I understand business context, data quality, and how to communicate technical results to non-technical audiences.
+I came into Data Science through an unconventional path — starting in BI and Data Visualization , then moving into HR & Talent Acquisition before transitioning fully into ML and AI. That background gives me an edge: I understand business context, data quality, and how to communicate technical results to non-technical audiences.
 
 - 🎓 Currently completing **MSc Data Science & AI** at TSI University, Riga
 - 🔬 Thesis: Predicting intraoperative cardiac arrest using Temporal Attention Networks on VitalDB clinical data — CV AUROC **0.9191 ± 0.0425**, validated across 5 folds
@@ -196,6 +196,8 @@ A centralised knowledge repository documenting my ML engineering learning journe
 ![Cognigy](https://img.shields.io/badge/Cognigy.AI-7B2FBE?style=flat&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
 ---
 
