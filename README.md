@@ -7,7 +7,9 @@
 I'm a Data Scientist completing my MSc at TSI University in Riga, building deep learning systems that work on real, messy clinical data. My thesis focuses on predicting life-threatening intraoperative events from physiological time-series — and beyond research, I build full-stack tools and BI solutions that solve real workflow problems.
 
 📍 Riga, Latvia &nbsp;|&nbsp; [![WhatsApp](https://img.shields.io/badge/WhatsApp-+371%2022447242-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/37122447242) &nbsp;|&nbsp; 📬 [St87014@students.tsi.lv](mailto:St87014@students.tsi.lv) &nbsp;|&nbsp; 📬 [sachumonsajeevp3110@gmail.com](mailto:sachumonsajeevp3110@gmail.com) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/sachu-mon)
+
 🟢 Actively seeking Data Science / ML / BI roles in Latvia and Europe — open to visa sponsorship
+
 ---
 
 ## 👨‍💻 About Me
@@ -15,7 +17,7 @@ I'm a Data Scientist completing my MSc at TSI University in Riga, building deep 
 I came into Data Science through an unconventional path — starting in HR & Talent Acquisition, then moving into BI and Data Visualization before transitioning fully into ML and AI. That background gives me an edge: I understand business context, data quality, and how to communicate technical results to non-technical audiences.
 
 - 🎓 Currently completing **MSc Data Science & AI** at TSI University, Riga
-- 🔬 Thesis: Predicting intraoperative cardiac arrest using Temporal Attention Networks on VitalDB clinical data
+- 🔬 Thesis: Predicting intraoperative cardiac arrest using Temporal Attention Networks on VitalDB clinical data — CV AUROC **0.9191 ± 0.0425**, validated across 5 folds
 - 📊 Previously worked as a **Data Visualization Expert** (Power BI, Tableau, DAX) across BYJU'S and Testalogix Solutions — BI development, KPI validation, and data quality
 - 🏢 Also experienced in **HR & Talent Acquisition** — full-cycle recruitment across India
 - 🤖 Completed **Accenture Data Platform Bootcamp 2026** — hands-on training in AWS, Docker, Kubernetes, Cognigy.AI, Jenkins, and Cybersecurity
@@ -28,17 +30,33 @@ I came into Data Science through an unconventional path — starting in HR & Tal
 
 > **Multi-Window Cardiac Arrest Prediction Using Temporal Attention Networks on VitalDB Clinical Time-Series**
 
-Developed a two-stage deep learning pipeline to predict intraoperative cardiac arrest (CA) at 30, 60, 120, and 240 minutes before the event, using the publicly available VitalDB dataset (6,388 perioperative surgical cases).
+Developed a two-stage deep learning pipeline to predict intraoperative cardiac arrest (CA) at **30, 60, 120, and 240 minutes** before the event, using the publicly available VitalDB dataset (6,388 perioperative surgical cases, Seoul National University Hospital).
 
 | Component | Detail |
 |---|---|
-| **Dataset** | VitalDB — 6,388 perioperative cases, Seoul National University Hospital |
-| **Signals** | Heart rate, SpO₂, EtCO₂, MAP, SBP, DBP (36-dimensional feature vector) |
-| **Architecture** | TAN-LSTM hybrid (4-head self-attention + LSTM ensemble) |
-| **Best Result** | AUROC 0.9180 (95% CI: 0.8944–0.9405) on multi-window sub-cohort |
-| **Baselines** | LightGBM · Random Forest · XGBoost · Logistic Regression · LSTM |
-| **Class Imbalance** | 1:26 to 1:96 → handled with Focal Loss, class-balanced weighting, Youden's J |
-| **Validation** | 5-fold cross-validation, bootstrap DeLong test (p < 0.05) |
+| **Dataset** | VitalDB — 6,388 perioperative cases, 71 confirmed CA cases, 90:1 class imbalance |
+| **Signals** | Heart rate, SpO₂, EtCO₂, ART_MBP, ART_SBP, ART_DBP — 36-dimensional feature vector (6 signals × 6 statistics: mean, std, min, max, range, slope) |
+| **Architecture** | TAN-LSTM hybrid — 4-head MultiHeadAttention + LSTM(64) + LSTM(32) + Focal Loss (γ=2.0, α=0.25) |
+| **CV Performance** | Pooled AUROC **0.9122** · Mean **0.9191 ± 0.0425** · 95% CI [0.8672–0.9632] |
+| **Best Window Model** | LightGBM @ 60-min: AUROC **0.9747** · LSTM @ 30-min: AUROC **0.9312** |
+| **Clinical Baseline** | NEWS2 @ 30-min: AUROC **0.4345** (below random — invalidated for intraoperative use) |
+| **Key Finding** | Attention weights monotonically increase 0.197→0.228→0.269→0.307 across all 5 CV folds — confirming physiological deterioration is detectable **4 hours before arrest** |
+| **Imbalance Handling** | SMOTE-ENN + Focal Loss + Platt Calibration (OOF-fitted) |
+| **Validation** | Stratified 5-fold cross-validation · Case-level splits (no patient-level leakage) · Counterfactual window ablation · SHAP explainability |
+| **Baselines** | LightGBM · Random Forest · XGBoost · Logistic Regression · LSTM-only · NEWS2 |
+
+### 🧠 Medical Novelty
+- **First multi-horizon intraoperative CA system** simultaneously predicting across 4 time windows — giving anaesthetists graded risk intelligence rather than a single alarm
+- **Empirical proof of the pre-arrest physiological cascade** — attention weights quantify how deterioration begins 240 minutes before arrest, not acutely
+- **NEWS2 formally invalidated for intraoperative monitoring** — AUROC 0.4345 at 30-min (below chance), with rigorous empirical evidence rather than clinical assumption
+- **240-minute clinically actionable lead time** — sufficient for anaesthetic adjustment, ICU preparation, or elective case postponement
+
+### 💡 AI/CS Novelty
+- **Novel 3D temporal fusion architecture** — TAN operates on `(n_cases, 4_windows, 36_features)` tensors, learning cross-window attention rather than simple concatenation
+- **Two-stage heterogeneous ensemble** — Stage 1 trains per-window models independently; Stage 2 TAN aggregates across horizons — fully modular, hot-swappable
+- **Counterfactual window ablation** — causal explainability by systematically dropping each prediction horizon and measuring AUROC degradation (240-min drop: −0.0209, largest)
+- **Model-type-aware calibration** — classical ML uses raw probabilities; LSTM/TAN receive OOF-fitted Platt scaling, preventing SMOTE-inflated score distortion
+- **Monotonicity as architecture validation** — strict monotonic attention ordering across all 5 folds confirmed by Friedman χ² test and sign test (p < 0.05)
 
 📁 [View the project repository →](https://github.com/sachumonpsajeev-cyber/VitalDb-Cardiac-Arrest-Prediction-TAN)
 
@@ -58,13 +76,15 @@ Built independently to practice Angular architecture and reactive state manageme
 ## 🗂️ Academic & Research Projects
 
 ### 🫀 [VitalDB Cardiac Arrest Prediction — TAN](https://github.com/sachumonpsajeev-cyber/VitalDb-Cardiac-Arrest-Prediction-TAN)
-Intraoperative cardiac arrest prediction using a novel Temporal Attention Network (TAN) + LSTM hybrid architecture on VitalDB clinical time-series data. Includes full preprocessing pipeline, multi-window feature engineering, and model evaluation across four temporal horizons.  
-`Python` `PyTorch` `LightGBM` `Scikit-learn` `VitalDB`
+Intraoperative cardiac arrest prediction using a novel Temporal Attention Network (TAN) + LSTM hybrid architecture on VitalDB clinical time-series data. Includes full preprocessing pipeline, multi-window feature engineering, SMOTE-ENN imbalance handling, SHAP explainability, counterfactual ablation, and model evaluation across four temporal horizons (30/60/120/240 min before arrest). CV AUROC 0.9191 ± 0.0425 vs NEWS2 baseline 0.4345.
+
+`Python` `TensorFlow` `LightGBM` `XGBoost` `Scikit-learn` `SHAP` `SMOTE-ENN` `VitalDB`
 
 ---
 
 ### 🧠 [Physiological Signal-Based Stress Prediction](https://github.com/sachumonpsajeev-cyber/Physiological-Signal-Based-Stress-Prediction)
-End-to-end ML pipeline for classifying psychological stress states from raw physiological signals. Covers feature extraction, model training, and comparative evaluation of classification algorithms.  
+End-to-end ML pipeline for classifying psychological stress states from raw physiological signals. Covers feature extraction, model training, and comparative evaluation of classification algorithms.
+
 `Python` `Scikit-learn` `Pandas` `Jupyter`
 
 ---
@@ -110,7 +130,8 @@ Interactive Tableau dashboard analysing passenger satisfaction patterns across 1
 ---
 
 ### ⚙️ [Model Building Workspace](https://github.com/sachumonpsajeev-cyber/model-building-workspace)
-A centralised knowledge repository documenting my ML engineering learning journey — experiments, training modules, and technical notes across data science and AI topics.  
+A centralised knowledge repository documenting my ML engineering learning journey — experiments, training modules, and technical notes across data science and AI topics.
+
 `Python`
 
 ---
@@ -146,6 +167,7 @@ A centralised knowledge repository documenting my ML engineering learning journe
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
 
 **ML / DL Frameworks**  
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat&logoColor=white)
